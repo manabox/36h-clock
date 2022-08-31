@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+}
+.clock36 {
+  margin-bottom: 3rem;
+}
+.clock36 h1 {
+  margin-top: 2rem;
+}
+.clock36-time {
+  margin: 8rem 0;
+  font-size: 7rem;
+}
+@media(min-width: 640px){
+  .clock36-time {
+    font-size: 14rem;
+  }
+}
+.clock36-time span {
+  font-size: 5rem;
+  display: block;
+}
+.clock24-time {
+  margin-top: 2rem;
+  font-size: 4rem;
+}
+footer {
+  font-size: .75rem;
+}
+footer a {
+  color: #666;
+}
