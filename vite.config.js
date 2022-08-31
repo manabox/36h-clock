@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/36h-clock/',
   build: {
-    outDir: 'dist',
+    outDir: 'docs',
   },
 })
