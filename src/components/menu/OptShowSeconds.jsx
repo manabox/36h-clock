@@ -1,13 +1,15 @@
 const OptShowSeconds = ({ showSeconds, showSecondsToggle}) => {
     return (
         <div className="optItem">
-            <label for="showSecondsCheck">Show Seconds</label>
-            <input
-                id="showSecondsCheck"
-                type="checkbox"
-                checked={showSeconds}
-                onChange={showSecondsToggle}
-            />
+            <label className="optItemLabel">
+                <span>Show Seconds</span>
+                <input
+                    type="checkbox"
+                    checked={showSeconds}
+                    onChange={showSecondsToggle}
+                />
+                <div className="optItemSlider"></div>
+            </label>
         </div>
     );
 }
