@@ -1,8 +1,10 @@
+import styles from '../../styles/clock24.module.css'
+
 const Clock24 = ({ date }) => {
     return (
-        <section className="clock24">
+        <section className={styles.clock24}>
             <h2>24-hour Clock</h2>
-            <p className="clock24-time">{date.getHours()}:{date.getMinutes()}</p>
+            <p className={styles.clock24Time}>{date.getHours()}:{date.getMinutes()}</p>
         </section>
     );
 }

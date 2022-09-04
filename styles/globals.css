@@ -1,0 +1,12 @@
+:root {
+    --fontColor: #333;
+    --bgColor: #fff;
+
+    --fontMain: 'Cinzel', serif;
+}
+
+body {
+    text-align: center;
+    color: var(--fontColor);
+    background-color: var(--bgColor);
+}

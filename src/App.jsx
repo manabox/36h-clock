@@ -1,6 +1,5 @@
 import { useState, useEffect, useMemo } from 'react'
 import 'normalize.css'
-import './App.css'
 import Clock36 from './components/Clock36'
 import Clock24 from './components/Clock24'
 import Navigation from './components/Navigation'

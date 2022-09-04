@@ -1,0 +1,7 @@
+.pageFooter,
+.pageFooter small {
+    font-size: .75rem;
+}
+.pageFooter a {
+    color: #666;
+}

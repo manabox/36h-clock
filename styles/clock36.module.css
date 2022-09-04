@@ -1,0 +1,20 @@
+.clock36 {
+    font-family: var(--fontMain);
+    margin-bottom: 3rem;
+}
+.clock36 h1 {
+    margin-top: 2rem;
+}
+.clock36Time {
+    margin: 8rem 0;
+    font-size: 7rem;
+}
+@media(min-width: 640px){
+    .clock36Time {
+        font-size: 14rem;
+    }
+}
+.clock36Time span {
+    font-size: 5rem;
+    display: block;
+}

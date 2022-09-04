@@ -1,0 +1,7 @@
+.clock24 {
+    font-family: var(--fontMain);
+}
+.clock24Time {
+    margin-top: 2rem;
+    font-size: 4rem;
+}
