@@ -1,6 +1,7 @@
 :root {
     --fontColor: #333;
     --bgColor: #fff;
+    --transparentColor: rgba(0,0,0,.1);
 
     --fontMain: 'Cinzel', serif;
 }
